@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(236, 232, 232);
+}
+.navbar-default {
+    background-image: url("./download.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+}
+.btn{
+    background-color: rgb(98, 172, 241);
+    border-radius: 40px;
+    color: white;
+    display: flex;
+    justify-content: end;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+.navbar-default .navbar-brand {
+    color: #ebe4e4;
+    padding-left: 70px;
+
+}
+.navbar-default .navbar-nav > li > a {
+    color:white;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.dropdown-toggle{
+    border:2px solid rgb(136, 209, 243);
+    background-color: none;
+    border-radius: 40px;
+    height: -10px;
+    margin: 15px;
+}
+.navbar-default .navbar-nav > li > .home{
+    color: rgb(129, 200, 233);
+}
+/*****   services   *****/
+.cards{
+    border: 2px ;
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    width: 100%;
+}
+.h1{
+    color:rgb(18, 18, 88) ;
+}
+.card-title{
+    color:rgb(18, 18, 88) ;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+@media only screen and (max-width: 1000px){
+
+    .navbar-default .navbar-nav > li > a{
+        color: black;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+}
